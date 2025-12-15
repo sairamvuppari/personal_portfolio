@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sairam Vuppari - Senior Web Developer</title>
+    <meta name="description"
+        content="Senior Web Developer with 8+ years of experience in building robust and scalable websites. Expert in JavaScript, TypeScript, Angular, Node.js, and cloud technologies.">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader">
+            <div class="code-animation">
+                <span>&lt;</span>
+                <span>dev</span>
+                <span>/&gt;</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-text">&lt;Sairam/&gt;</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-greeting fade-in-up">
+                            <span class="wave">👋</span> Hi, I'm
+                        </h1>
+                        <h2 class="hero-name fade-in-up" data-delay="200">
+                            <span class="highlight">Sairam Vuppari</span>
+                        </h2>
+                        <h3 class="hero-title fade-in-up" data-delay="400">
+                            Senior Web Developer
+                        </h3>
+                        <p class="hero-description fade-in-up" data-delay="600">
+                            A self-motivated IT professional with <strong>8+ years of experience</strong> in building
+                            robust and scalable websites including Backend APIs, Responsive and Interactive Web UI.
+                            Specialized in microservice architecture and modern web technologies.
+                        </p>
+                        <div class="hero-buttons fade-in-up" data-delay="800">
+                            <a href="#projects" class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-code me-2"></i>View My Work
+                            </a>
+                            <a href="#contact" class="btn btn-outline-primary btn-lg">
+                                <i class="fas fa-envelope me-2"></i>Get In Touch
+                            </a>
+                        </div>
+                        <div class="hero-social fade-in-up" data-delay="1000">
+                            <a href="mailto:sairamvuppari@gmail.com" class="social-link">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="tel:+919182708559" class="social-link">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                            <a href="https://sairamvuppari.com" class="social-link" target="_blank">
+                                <i class="fas fa-globe"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/sairamvuppari" class="social-link" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image fade-in-right" data-delay="400">
+                        <div class="image-container">
+                            <img src="sairam.jpg" alt="Sairam Vuppari - Professional Headshot" class="profile-image">
+                            <div class="image-overlay">
+                                <div class="code-snippet">
+                                    <pre><code>const developer = {
+  name: "Sairam Vuppari",
+  experience: "8+ years",
+  skills: ["JavaScript", "TypeScript", "Angular", "Node.js"],
+  passion: "Building scalable solutions"
+};</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow-down">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-title text-center mb-5 reveal-on-scroll">
+                        <span class="highlight">About Me</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-image reveal-on-scroll">
+                        <img src="https://pixabay.com/get/g48189ce5208c2793f5974573145c60914d364e31413febcf3f2f8c730a90a1af9dc5b04f35a6a93e158026c6b6caea0ed18790fa1c04eb661781ccd601f60095_1280.jpg"
+                            alt="Developer Workspace" class="img-fluid rounded-3">
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <h3>8+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>300+</h3>
+                                <p>Issues Resolved</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>20+</h3>
+                                <p>Landing Pages</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content reveal-on-scroll" data-delay="200">
+                        <p class="lead">
+                            I'm a passionate Senior Web Developer with over 8 years of experience in creating innovative
+                            digital solutions. Currently serving as a Technical Lead at Virtusa PVT LTD, I specialize in
+                            building robust and scalable applications using modern web technologies.
+                        </p>
+                        <p>
+                            My expertise spans across full-stack development, with a strong focus on JavaScript
+                            ecosystem including Angular, Node.js, and TypeScript. I've successfully led development
+                            teams in creating microservice architectures and have experience working with major clients
+                            in the utilities and retail sectors across USA and India.
+                        </p>
+                        <div class="achievement-highlights">
+                            <div class="achievement">
+                                <i class="fas fa-award text-primary"></i>
+                                <div>
+                                    <h5>Stellar Award 2022</h5>
+                                    <p>Recognized for achieving greater responsibilities and deliverables at Virtusa Ltd
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-trophy text-primary"></i>
+                                <div>
+                                    <h5>ISGF Innovation Awards 2019</h5>
+                                    <p>Team member for "SMART TECHNOLOGY OF YEAR 2019" for TPDDL project</p>
+                                </div>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-medal text-primary"></i>
+                                <div>
+                                    <h5>Most Valuable Performer</h5>
+                                    <p>Bronze recognition for outstanding work on TPDDL project in 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <section id="skills" class="skills-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 text-primary fw-bold" data-aos="fade-down">
+                Skills & Technologies
+            </h2>
+
+            <div class="row g-4">
+
+                <!-- Frontend -->
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in-up">
+                    <div class="card h-100 shadow-lg border-0">
+                        <div class="card-body text-center">
+                            <i class="fas fa-code fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title fw-semibold">Frontend Development</h5>
+                            <ul class="list-unstyled mt-3">
+                                <li>HTML5 / CSS3</li>
+                                <li>JavaScript / TypeScript</li>
+                                <li>Angular 1+</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-delay="150">
+                    <div class="card h-100 shadow-lg border-0">
+                        <div class="card-body text-center">
+                            <i class="fas fa-server fa-3x text-success mb-3"></i>
+                            <h5 class="card-title fw-semibold">Backend Development</h5>
+                            <ul class="list-unstyled mt-3">
+                                <li>Node.js / Express.js</li>
+                                <li>Python</li>
+                                <li>Microservices</li>
+                                <li>RESTful APIs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database & Tools -->
+                <div class="col-lg-4 col-md-6 mx-auto" data-aos="zoom-in-up" data-aos-delay="300">
+                    <div class="card h-100 shadow-lg border-0">
+                        <div class="card-body text-center">
+                            <i class="fas fa-database fa-3x text-warning mb-3"></i>
+                            <h5 class="card-title fw-semibold">Database & Tools</h5>
+                            <ul class="list-unstyled mt-3">
+                                <li>MySQL / PostgreSQL</li>
+                                <li>Oracle</li>
+                                <li>AWS (S3, EC2)</li>
+                                <li>RabbitMQ</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-title text-center mb-5 reveal-on-scroll">
+                        <span class="highlight">Professional Experience</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="timeline">
+                        <!-- Current Position -->
+                        <div class="timeline-item reveal-on-scroll">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h3>Technical Lead</h3>
+                                    <h4>Virtusa PVT LTD</h4>
+                                    <span class="timeline-date">April 2021 – Present</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p><strong>Project: Retail Calculus</strong> - Leading the Development team in
+                                        creating In-store web application for American Sale & retail Calculus.</p>
+                                    <ul>
+                                        <li>Developed Backend services/workers using Node.js, Python as Microservices
+                                            and frontend using Angular 8 (TypeScript) as well as AngularJS for different
+                                            modules</li>
+                                        <li>Integrated RabbitMQ and Supervisor to the application for messaging queue
+                                            and workers</li>
+                                        <li>Reviewed, analyzed and optimized server performances and integrated multiple
+                                            crash monitoring methods</li>
+                                        <li>Resolved 300+ Features/critical bugs in the product to help customer launch
+                                            seamless experience</li>
+                                        <li>Engineered 20+ landing pages in HTML5, CSS and Bootstrap to support web
+                                            browser and iOS environments</li>
+                                        <li>Configure and monitor AWS Linux servers for both APP & Web</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Previous Position -->
+                        <div class="timeline-item reveal-on-scroll" data-delay="200">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h3>Software Developer</h3>
+                                    <h4>Cyient LTD</h4>
+                                    <span class="timeline-date">Sept 2017 – April 2021</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p><strong>Project: Osmose Field</strong> - Designed and built Architecture and
+                                        models for Angular Application through Agile requirement gathering with monthly
+                                        crew users of nearly 1000+.</p>
+                                    <ul>
+                                        <li>Implemented Auto updaters and perform sync between PostgreSQL and Frontend
+                                        </li>
+                                        <li>Integrated ArcGIS API with Angular and track the Jobs</li>
+                                        <li>Upload and retrieve files (images, pdf) in AWS S3 using Node.js</li>
+                                    </ul>
+
+                                    <p><strong>Project: TPDDL WFM</strong> - Developed and maintained web application
+                                        handling 1000+ concurrent users.</p>
+                                    <ul>
+                                        <li>Performing sync operations between mobile users and web application every
+                                            day</li>
+                                        <li>Part of maintenance & Deployment team to optimize the server load and
+                                            perform enhancements</li>
+                                        <li>Worked on generating acknowledgment reports in Angular after Field users
+                                            complete their Outages assigned</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-title text-center mb-5 reveal-on-scroll">
+                        <span class="highlight">Featured Projects</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card reveal-on-scroll">
+                        <div class="project-image">
+                            <img src="https://pixabay.com/get/g4178637aeba823371b3f26862d5c3857633a2e6100180962029d1a920f8d643296ab6e6bc242d13e9ae3a1c714e0e268c9f17ec93c1d7a1fd32858ff4373285c_1280.jpg"
+                                alt="Retail Calculus Project" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i> View</a>
+                                    <a href="#" class="btn btn-outline-light btn-sm"><i class="fas fa-code"></i>
+                                        Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Retail Calculus Platform</h4>
+                            <p>In-store web application for American Sale & retail operations. Built with microservices
+                                architecture using Node.js, Angular 8, and AWS.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Angular 8</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">AWS</span>
+                                <span class="tech-tag">RabbitMQ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card reveal-on-scroll" data-delay="200">
+                        <div class="project-image">
+                            <img src="https://pixabay.com/get/gf12420ea720409b5b0bb4f57b36143989908b4f760eff29f67c07699c06c8dc435756ff04b463c5e97dd03353a3d58e0845f3df3f20d4885170c73ab58823bbe_1280.jpg"
+                                alt="Osmose Field Application" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i> View</a>
+                                    <a href="#" class="btn btn-outline-light btn-sm"><i class="fas fa-code"></i>
+                                        Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Osmose Field Management</h4>
+                            <p>Field management application with ArcGIS integration for tracking jobs and managing 1000+
+                                monthly users with real-time synchronization.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Angular</span>
+                                <span class="tech-tag">ArcGIS API</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">AWS S3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card reveal-on-scroll" data-delay="400">
+                        <div class="project-image">
+                            <img src="https://pixabay.com/get/gce1fd08ce39d11f7b81399939bf809cbe7316d3ec8d4f70e73928f661daca1e8b9592d685be5655b2da8af7d69853f51175b3fac337db609297db1ad58984e20_1280.jpg"
+                                alt="TPDDL WFM System" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="#" class="btn btn-light btn-sm"><i class="fas fa-eye"></i> View</a>
+                                    <a href="#" class="btn btn-outline-light btn-sm"><i class="fas fa-code"></i>
+                                        Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>TPDDL Workforce Management</h4>
+                            <p>Award-winning smart technology solution for Tata Power Delhi Distribution Limited
+                                handling 1000+ concurrent users with mobile synchronization.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Angular</span>
+                                <span class="tech-tag">Mobile Sync</span>
+                                <span class="tech-tag">Reporting</span>
+                                <span class="tech-tag">Real-time</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-title text-center mb-5 reveal-on-scroll">
+                        <span class="highlight">Get In Touch</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-content text-center reveal-on-scroll">
+                        <p class="lead mb-5">
+                            I'm always interested in discussing new opportunities, innovative projects, and how we can
+                            build something great together. Let's connect!
+                        </p>
+                    </div>
+
+                    <div class="contact-methods">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="contact-method reveal-on-scroll">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:sairamvuppari@gmail.com">sairamvuppari@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="contact-method reveal-on-scroll" data-delay="200">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <h4>Phone</h4>
+                                    <p><a href="tel:+919182708559">+91 9182708559</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="contact-method reveal-on-scroll" data-delay="400">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-globe"></i>
+                                    </div>
+                                    <h4>Website</h4>
+                                    <p><a href="https://sairamvuppari.com" target="_blank">sairamvuppari.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form reveal-on-scroll" data-delay="600">
+                        <form id="contactForm">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="name" name="name" placeholder=" ">
+                                <label for="name">Name</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="email" name="email" placeholder=" ">
+                                <label for="email">Email</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder=" ">
+                                <label for="subject">Subject</label>
+                            </div>
+
+                            <div class="form-floating mb-4">
+                                <textarea class="form-control" id="message" name="message" rows="5" placeholder=" "
+                                    style="height: 120px;"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    <i class="fas fa-paper-plane me-2"></i>Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Sairam Vuppari. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-social text-md-end">
+                        <a href="mailto:sairamvuppari@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919182708559" class="social-link">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="https://sairamvuppari.com" class="social-link" target="_blank">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/sairamvuppari" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
